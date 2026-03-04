@@ -73,11 +73,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$once$2d$ui
 ;
 ;
 const person = {
-    firstName: "Selene",
-    lastName: "Yu",
-    name: `Selene Yu`,
-    role: "Design Engineer",
-    avatar: "/images/avatar.jpg",
+    firstName: "Edejed",
+    lastName: "PAculba",
+    name: `Edejed PAculba`,
+    role: "Web Designer & Developer",
+    avatar: "/images/edejed_avatar.png",
     email: "example@gmail.com",
     location: "Asia/Jakarta",
     languages: [
