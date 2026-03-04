@@ -1,1 +1,23 @@
-node_modules
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Mac system files
+.DS_Store
+
+# Build folders
+dist/
+build/
+
+# Editor settings
+.vscode/
+.idea/
+
+.next/dev/cache/turbopack
