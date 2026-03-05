@@ -3,13 +3,13 @@ import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Edejed",
-  lastName: "PAculba",
-  name: `Edejed PAculba`,
+  lastName: "Paculba",
+  name: `Edejed Paculba`,
   role: "Web Designer & Developer",
   avatar: "/images/edejed_avatar.png",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "edejed@gmail.com",
+  location: "Asia/Manila", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tagalog"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -60,12 +60,12 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>I build modern web applications and scalable systems.</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Full-Stack Web Developer</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Edejed, a web designer and developer with experience in both professional and freelance development, I focus on creating fast, responsive, and user-friendly digital products.
 </>
   ),
 };
@@ -102,9 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Hi, I’m Edejed, a Full-Stack Web Developer passionate about building modern web applications. I enjoy solving real-world problems with technology and continuously improving my development skills by exploring new tools, frameworks, and best practices.
       </>
     ),
   },
@@ -113,17 +111,18 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "MSU-IIT",
+        timeframe: "2023 - 2024",
+        role: "Fullstack Web Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed and maintained web applications using modern JavaScript frameworks and backend technologies.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designing and building RESTful APIs using Python. 
+          </>,
+          <>
+            Integrating third-party APIs and services
           </>,
         ],
         images: [
